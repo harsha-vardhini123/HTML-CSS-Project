@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(./images/login_bg.avif);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 100px;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.837);
+}
+.logo img {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+#signin {
+  border-radius: 5px;
+  padding: 6px 12px;
+  background-color: gold;
+  color: #000;
+}
+
+#signup {
+  background-color: gold;
+  border-radius: 5px;
+  padding: 6px 12px;
+  color: black;
+}
+#signin:hover {
+  background-color: #fff;
+}
+#signup:hover {
+  background-color: #fff;
+}
+.signin {
+  width: 420px;
+  background-color: rgba(0, 0, 0, 0.112);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(50px);
+  color: black;
+  border-radius: 15px;
+  padding: 30px 40px;
+}
+.signin h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.signin .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: white;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 40px;
+  font-size: 16px;
+  padding-left: 15px;
+}
+.input-box input:hover {
+  background-color: rgba(0, 0, 0, 0.482);
+  color: white;
+}
+.remember {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-bottom: 20px;
+}
+.submit-btn {
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+.btn {
+  width: 80%;
+  height: 5vh;
+  border-radius: 30px;
+}
+.btn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+.signin-link {
+  padding-bottom: 20px;
+}

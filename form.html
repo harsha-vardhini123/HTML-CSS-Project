@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Survey Form</h1>
+    <form action="./action">
+      <div class="formcontainer">
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <label><sup>*</sup>Name </label>
+        <input
+          type="text"
+          id="name"
+          name="Name"
+          placeholder="Enter your name"
+        /><br />
+        <br />
+        <label><sup>*</sup>Email: </label>
+        <input
+          type="email"
+          id="email"
+          name="Email"
+          placeholder="Enter your Email"
+        /><br />
+        <br />
+        <label><sup>*</sup>Age: </label>
+        <input type="number" id="age" name="Age" placeholder="Age" /><br />
+        <br />
+      </div>
+
+      <div class="option">
+        <lable style="margin-left: 45px"
+          >which option best describes your current role?</lable
+        >
+        <select id="option">
+          <option></option>
+          <option value="Sudent">Student</option>
+          <option value="Employee">Employee</option>
+          <option value="Admin">Admin</option></select
+        ><br /><br />
+      </div>
+      <div class="radio">
+        <label style="margin-left: 45px"
+          ><sup>*</sup>How likely is that you would recommend freeCodeCamp to a friend?
+        </label>
+        <input
+          type="radio"
+          id="r1"
+          name="radio"
+          value="Definitely"
+        />Definitely<br />
+
+        <input
+          type="radio"
+          id="r2"
+          name="radio"
+          value="Maybe"
+          style="margin-left: 509px"
+        />Maybe <br />
+        <input
+          type="radio"
+          id="r3"
+          name="radio"
+          value="Not Sure"
+          style="margin-left: 509px"
+        />Not Sure<br /><br />
+        <div class="select">
+        <label style="margin-left: 45px">What do you like most in FCC: </label>
+        <select>
+          <option value="select an option">select an option</option>
+          <option value="Infrastructure">Infrastructure</option>
+          <option value="place">place</option></select
+        ><br /><br />
+        </div>
+        <div class="check">
+        <label style="margin-left: 45px"
+          >Things that should be improved in the future(Check all that apply):
+        </label>
+        <input
+          type="checkbox"
+          value="Frond-end-Projects"
+        />Frond-end-Projects<br />
+        <input
+          type="checkbox"
+          value="Back-end-Projects"
+          style="margin-left: 481px"
+        />Back-end-Projects
+        <br />
+        <input
+          type="checkbox"
+          value="Data Visualization"
+          style="margin-left: 481px"
+        />Data Visualization
+        <br />
+      </div>
+      <div class="container">
+        <button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.837);
+}
+.logo img {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
+.links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+.links li {
+  display: inline-block;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.links li a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+#signin {
+  border-radius: 5px;
+  padding: 6px 12px;
+  background-color: gold;
+  color: #000;
+}
+
+#signup {
+  background-color: gold;
+  border-radius: 5px;
+  padding: 6px 12px;
+  color: black;
+}
+#signin:hover {
+  background-color: #fff;
+}
+#signup:hover {
+  background-color: #fff;
+}
+.staff {
+  background-color: rgba(164, 93, 173, 0.359);
+  height: 100vh;
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 100px;
+}
+.staff img {
+  width: 1100px;
+  height: 300px;
+  margin-left: 160px;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+.staff h1 {
+  text-align: center;
+  font-size: 54px;
+}
+.staff li {
+  font-size: x-large;
+}

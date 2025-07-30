@@ -27,5 +27,3 @@ You can download and view the video using any standard media player like:
 
 - If you are looking for the source code, assets, or explanation behind the video, feel free to check the commits or reach out.
 - You can also upload the video to platforms like YouTube or Vimeo if you'd like to share it publicly.
-
-## 📜 License

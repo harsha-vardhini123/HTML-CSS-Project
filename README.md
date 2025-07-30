@@ -1,27 +1,34 @@
 https://github.com/user-attachments/assets/12d4af87-3ce5-498d-ad9a-6a034923a55c
 
-# 🎬 Output Video Project
+# Basic HTML & CSS Project 
 
-This repository contains a short video file titled `Output.mp4`. The video is the result of a project/work related to [briefly describe your project or topic here].
+This repository contains a basic web development project built using **HTML** and **CSS**. It demonstrates fundamental web layout and styling techniques suitable for beginners.
 
-## 📁 File Included
+## 📁 Project Contents
 
-- `Output.mp4`: Main video output (duration: [X mins/seconds], format: MP4)
+After extracting the ZIP, you'll find:
 
-## 📌 About the Video
+- `webpage.html` – The main HTML file
+- `styles.css` – The CSS stylesheet
+- (Optional) Images, assets, or additional HTML pages (if included)
 
-The video demonstrates:
-- [Add a few bullet points on what the video shows — e.g., animation, demo, presentation]
-- [Mention tools/technologies used if relevant — e.g., Python, Pygame, After Effects, etc.]
+## 🛠️ Technologies Used
 
-## 🚀 How to View
+- HTML5
+- CSS3
+- [Visual Studio Code](https://code.visualstudio.com/) (Recommended IDE)
 
-You can download and view the video using any standard media player like:
-- VLC Media Player
-- Windows Media Player
-- QuickTime
+## 🚀 How to Run This Project in VS Code
 
-## 💡 Additional Notes
+1. **Download
+     ```bash
+     extract the zip file
+     open the extracted file in Vscode
+     open webpage.html file
+     run in Live Server Extention
+3.  Clone this Repository:**
 
-- If you are looking for the source code, assets, or explanation behind the video, feel free to check the commits or reach out.
-- You can also upload the video to platforms like YouTube or Vimeo if you'd like to share it publicly.
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+

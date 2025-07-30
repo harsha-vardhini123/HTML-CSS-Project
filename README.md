@@ -30,6 +30,3 @@ You can download and view the video using any standard media player like:
 
 ## 📜 License
 
-[Specify a license if needed, e.g., MIT, Creative Commons, etc.]
-
----

@@ -1,4 +1,4 @@
-# Basic-HTML-CSS-Project
+https://github.com/user-attachments/assets/12d4af87-3ce5-498d-ad9a-6a034923a55c
 
 # 🎬 Output Video Project
 
@@ -11,14 +11,12 @@ This repository contains a short video file titled `Output.mp4`. The video is th
 ## 📌 About the Video
 
 The video demonstrates:
-
 - [Add a few bullet points on what the video shows — e.g., animation, demo, presentation]
 - [Mention tools/technologies used if relevant — e.g., Python, Pygame, After Effects, etc.]
 
 ## 🚀 How to View
 
 You can download and view the video using any standard media player like:
-
 - VLC Media Player
 - Windows Media Player
 - QuickTime

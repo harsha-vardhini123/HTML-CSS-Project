@@ -2,7 +2,7 @@ https://github.com/user-attachments/assets/12d4af87-3ce5-498d-ad9a-6a034923a55c
 
 # Basic HTML & CSS Project 
 
-This repository contains a basic web development project built using **HTML** and **CSS**. It demonstrates fundamental web layout and styling techniques suitable for beginners.
+This repository contains a web development project built using **HTML** and **CSS**. It demonstrates fundamental web layout and styling techniques suitable for beginners.
 
 ## 📁 Project Contents
 

@@ -29,6 +29,4 @@ After extracting the ZIP, you'll find:
 3.  Clone this Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-
+   git clone https://github.com/harsha-vardhini123/HTML-CSS-Project.git
